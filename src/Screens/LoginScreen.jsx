@@ -49,14 +49,14 @@ export default function LoginScreen() {
                 <Text style={styles.passwShowText}>Показати</Text>
               </TouchableOpacity>
             </View>
-          </KeyboardAvoidingView>
 
-          <TouchableOpacity style={styles.button} activeOpacity={0.8}>
-            <Text style={styles.buttonText}>Увійти</Text>
-          </TouchableOpacity>
-          <TouchableOpacity>
-            <Text style={styles.aside}>Немає акаунту? Зареєструватися</Text>
-          </TouchableOpacity>
+            <TouchableOpacity style={styles.button} activeOpacity={0.8}>
+              <Text style={styles.buttonText}>Увійти</Text>
+            </TouchableOpacity>
+            <TouchableOpacity>
+              <Text style={styles.aside}>Немає акаунту? Зареєструватися</Text>
+            </TouchableOpacity>
+          </KeyboardAvoidingView>
         </View>
       </ImageBackground>
     </View>
@@ -140,8 +140,5 @@ const styles = StyleSheet.create({
   passwShow: {
     top: -50,
     left: 271,
-  },
-  containerKeyB: {
-    justifyContent: "flex-end",
   },
 });
