@@ -19,7 +19,7 @@ const RegistrationScreen = ({ setIsRegister }) => {
       style={styles.containerKeyB}
     >
       <View style={styles.container}>
-        <View style={styles.pfotoContainer}>
+        <View style={styles.photoContainer}>
           <TouchableOpacity style={styles.addbutton} activeOpacity={0.5}>
             <ImageBackground
               source={require("../images/add.png")}
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   containerKeyB: {
     justifyContent: "flex-end",
   },
-  pfotoContainer: {
+  photoContainer: {
     marginTop: -60,
     height: 120,
     width: 120,

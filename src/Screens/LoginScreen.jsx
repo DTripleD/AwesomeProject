@@ -67,14 +67,6 @@ const styles = StyleSheet.create({
   containerKeyB: {
     justifyContent: "flex-end",
   },
-  pfotoContainer: {
-    marginTop: -60,
-    height: 120,
-    width: 120,
-    backgroundColor: "#F6F6F6",
-    borderRadius: 16,
-  },
-
   addbutton: {
     marginTop: "65%",
     left: "90%",
